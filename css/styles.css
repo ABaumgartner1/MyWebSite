@@ -1,0 +1,255 @@
+.s-nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1040;
+  background-color: #E4F9F5;
+  height: 80px;
+}
+
+.c-nav {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.link_item {
+  position: absolute;
+  padding: 20px 10px;
+}
+
+.link_item:hover {
+  color: black;
+}
+
+.div_hover {
+  background-color: #125044;
+  height: 3px;
+  width: 60px;
+  position: absolute;
+  top: 77px;
+  display: none;
+  left: 25px;
+}
+
+.skills_hover {
+  width: 60px;
+  left: 142px;
+}
+
+.contact_hover {
+  width: 65px;
+  left: 270px;
+}
+
+.about_link:hover + .div_hover {
+  display: block;
+}
+
+.skills_link:hover + .skills_hover {
+  display: block;
+}
+
+.contact_link:hover + .contact_hover {
+  display: block;
+}
+
+.about_link {
+  left: 0;
+}
+
+.skills_link {
+  left: 120px;
+}
+
+.contact_link {
+  left: 240px;
+}
+
+.logo_link {
+  position: absolute;
+  left: 29.2vw;
+}
+
+.logo_img {
+  width: 12%;
+}
+
+.discord_link {
+  position: absolute;
+  right: 0;
+  top: 18px;
+}
+
+.discord_img {
+  width: 12%;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 300px 0 0 0;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  font-size: 5.625rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+hr {
+  border-color: #C1E5E5;
+  border-style: dotted none none;
+  border-width: 7px;
+  width: 60px;
+  margin-top: 125px;
+  margin-bottom: 125px;
+}
+
+p {
+  line-height: 2;
+}
+
+.me {
+  width: 25%;
+  margin-top: 25px;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 10vh;
+  height: 90vh;
+  margin-bottom: 100px;
+  background-image: url("mini_bg.jpg");
+  background-repeat: no-repeat;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 40vh;
+  top: 20vh;
+}
+
+.heading1 {
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 40vh;
+  bottom: 50vh;
+}
+
+.mountain {
+  position: absolute;
+  bottom: 0;
+  right: 30vw;
+  height: 50vh;
+}
+
+.intro {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.octane {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  font-size: 16px;
+}
+
+.contact-msg {
+  margin: 40px auto 60px;
+}
+
+.BUTTON_VBE {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px 20px 10px 20px;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 90px;
+}
+
+.BUTTON_VBE:hover {
+   border: solid #337FED 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC48D);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC48D);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC48D);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC48D);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC48D);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+
+.bottom-container {
+  position: relative;
+  background-color: #66BFBF;
+  padding: 50px 0 60px;
+}
+
+a {
+  color: #0E7A7E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.cr {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0 0 0;
+}
